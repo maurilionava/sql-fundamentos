@@ -1,0 +1,39 @@
+/* IF ELSE */
+    --BLOCO DE ATRIBUIÇÃO DE VARIÁVEIS
+    DECLARE
+        @V_CONTADOR INT = 0
+    --BLOCO DE EXECUÇÃO
+    BEGIN
+        --SET @V_CONTADOR = (SELECT COUNT(*) FROM dbo.Funcionario)
+        --SELECT @V_CONTADOR AS QTDE
+        --PRINT 'QUANTIDADE DE FUNCIONÁRIOS: ' + CAST(@V_CONTADOR AS NVARCHAR)
+        IF @V_CONTADOR = 0
+            PRINT 'VALOR ZERO'
+        ELSE
+            PRINT 'VALOR DIFERENTE DE ZERO'
+    END
+
+/* CASE WHEN THEN */
+    DECLARE
+        @FAIXA_SALARIAL NVARCHAR(100)
+    BEGIN
+        SELECT
+        CASE
+            WHEN SALARIO > 15000 THEN '1'
+            WHEN SALARIO > 10000 THEN '2'
+            WHEN SALARIO > 5000 THEN '3'
+        END AS 'FAIXA',
+        *
+        FROM FUNCIONARIO
+    END
+
+/* WHILE */
+    DECLARE
+        @V_CONTADOR INT = 0
+    BEGIN
+        WHILE (@V_CONTADOR < 10)
+        BEGIN
+            PRINT 'VALOR DO CONTADOR = ' + CAST(@V_CONTADOR AS VARCHAR)
+            SET @V_CONTADOR = @V_CONTADOR + 1
+        END
+    END

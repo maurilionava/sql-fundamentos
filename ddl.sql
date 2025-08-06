@@ -1,0 +1,38 @@
+CREATE TABLE Endereco(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Logradouro NVARCHAR(100) NOT NULL,
+    Numero NVARCHAR(10),
+    Bairro NVARCHAR(50),
+    Cidade NVARCHAR(100) NOT NULL,
+    Estado CHAR(2) NOT NULL,
+    Pais NVARCHAR(50) NOT NULL DEFAULT 'Brasil',
+    CEP CHAR(9)
+)
+
+CREATE TABLE Empresa(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    NomeFantasia NVARCHAR(100) NOT NULL,
+    RazaoSocial NVARCHAR(100) NOT NULL,
+    CNPJ CHAR(18) NOT NULL UNIQUE,
+    EnderecoId INT NOT NULL,
+
+    CONSTRAINT FK_Empresa_Endereco FOREIGN KEY(EnderecoId)
+    REFERENCES Endereco(Id)
+)
+
+CREATE TABLE FUNCIONARIO(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nome NVARCHAR(100) NOT NULL,
+    CPF CHAR(14) NOT NULL UNIQUE,
+    DataNascimento DATE NOT NULL,
+    Cargo NVARCHAR(100) NOT NULL,
+    Salario DECIMAL(10,2) NOT NULL, --MONEY
+    EmpresaId INT NOT NULL,
+    EnderecoId INT NOT NULL,
+
+    CONSTRAINT FK_Funcionario_Empresa FOREIGN KEY(EmpresaId)
+    REFERENCES Empresa(Id)
+
+    CONSTRAINT FK_Funcionario_Endereco FOREIGN KEY(EnderecoId)
+    REFERENCES Endereco(Id)
+)
