@@ -1,4 +1,12 @@
 --TRIGGERS DDL(ESTRUTURA DO BANCO); DML(DADOS); LOGON
+CREATE TRIGGER NOME
+ON TABELA
+FOR INSERT,UPDATE,DELETE
+AS
+BEGIN
+    --BLOCO DE INSTRUÇÕES
+END
+
 /* 
     EXERCICIOS
     1. Crie uma trigger que impede a exclusão de endereços vinculados a empresas ou funcionários.
@@ -7,8 +15,7 @@
     4. Crie uma trigger que impede alteração do CNPJ de uma empresa (simule uma auditoria).
     5. Crie uma trigger no nível de DATABASE que impede a criação de novos sinônimos (CREATE SYNONYM).    
 */
-
-/* EXERCICIO 1 */
+--EXERCICIO 1
 CREATE TRIGGER TRG_EX01
 ON DBO.ENDERECO
 FOR DELETE
@@ -24,7 +31,7 @@ BEGIN
     END
 END
 
-/* EXERCICIO 2 */
+--EXERCICIO 2
 CREATE TRIGGER TRG_EX02
 ON dbo.Funcionario
 FOR INSERT
@@ -33,14 +40,7 @@ BEGIN
     PRINT 'NOVO USUÁRIO REGISTRADO'
 END
 
-/* EXERCICIO 2 MELHORADO */
-CREATE TABLE LOG_FUNCIONARIO(
-    Id INT IDENTITY(1,1) PRIMARY KEY,
-    Nome NVARCHAR(100) NOT NULL,
-    DataHora DATETIME DEFAULT GETDATE(),
-    Operacao CHAR(1)
-)
-
+--EXERCICIO 2 MELHORADO
 CREATE TRIGGER TRG_EX02_2
 ON dbo.Funcionario
 FOR INSERT
@@ -53,7 +53,7 @@ BEGIN
     FROM INSERTED
 END
 
-/* EXERCICIO 3 */
+--EXERCICIO 3
 CREATE TRIGGER EX_03
 ON dbo.Funcionario
 FOR INSERT, UPDATE
@@ -68,17 +68,7 @@ BEGIN
     END
 END;
 
-----------------------------------------------------------------
-
-CREATE TABLE BKP_EMPRESA(
-    ID INT IDENTITY(1,1) PRIMARY KEY,
-    USUARIO NVARCHAR(100) NOT NULL,
-    NOMEFANTASIA NVARCHAR(100) NOT NULL,
-    CNPJ CHAR(18) NOT NULL,
-    ACAO NVARCHAR(100) NOT NULL,
-    NDATA DATE NOT NULL
-)
-
+--EXERCICIO EXTRA
 CREATE TRIGGER TRG_BKP_EMPRESA
 ON dbo.Empresa
 FOR INSERT
