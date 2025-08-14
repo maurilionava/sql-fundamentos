@@ -1,4 +1,4 @@
-# 📘 Estudo de SQL e SQL Server
+# 📘 SQL - Fundamentos
 
 ---
 
