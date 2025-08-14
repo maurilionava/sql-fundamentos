@@ -194,3 +194,5 @@ Base para operações como `UNION`, `INTERSECT`, `EXCEPT`:
 * O primeiro número na notação (0..1, 1..n) representa obrigatoriedade (controlada pela aplicação), e o segundo representa a cardinalidade (controlada no banco).
 * Use variáveis locais (`DECLARE`) e globais (`@@`) conforme o contexto.
 
+
+teoria dos conjuntos
