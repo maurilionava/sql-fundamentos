@@ -20,6 +20,7 @@
     ```
     CREATE INDEX idx_nome ON tabela(coluna)
     ```
+    
 - Cardinalidade: Número de elementos em um conjunto ou relação entre tabelas. Pode ser representada como:
     - 1:1 (um para um)
         ```
@@ -54,6 +55,25 @@
     - Isolamento: As transações são isoladas umas das outras, evitando interferências
     - Durabilidade: Uma vez que a transação é confirmada, suas alterações são permanentes, mesmo em caso de falhas
 - Schema: Estrutura que define a organização do banco de dados, incluindo tabelas, colunas e relacionamentos
+- Tabela associativa: tabela que relaciona duas ou mais tabelas em um banco de dados, geralmente usada para representar relações muitos-para-muitos.
+    - Exemplo: Uma tabela "Estudantes" e uma tabela "Cursos" podem ser relacionadas por uma tabela associativa "Matriculas", que contém as chaves primárias de ambas as tabelas como chaves estrangeiras.
+        ```
+        CREATE TABLE Estudantes (
+            id INT PRIMARY KEY,
+            nome VARCHAR(100)
+        );
+        CREATE TABLE Cursos (
+            id INT PRIMARY KEY,
+            nome VARCHAR(100)
+        );
+        CREATE TABLE Matriculas (
+            id_estudante INT,
+            id_curso INT,
+            PRIMARY KEY (id_estudante, id_curso),
+            FOREIGN KEY (id_estudante) REFERENCES Estudantes(id),
+            FOREIGN KEY (id_curso) REFERENCES Cursos(id)
+        );
+        ```
 - View: Representação virtual de uma tabela, que pode incluir dados de uma ou mais tabelas
     ```
     CREATE VIEW nome_view AS 
@@ -107,6 +127,7 @@
     SELECT coluna1 FROM tabela1
     WHERE coluna2 IN (SELECT coluna2 FROM tabela2 WHERE condição)
     ```
+
 - Constraint: Regra que limita os valores que podem ser inseridos em uma tabela (ex: NOT NULL, UNIQUE, CHECK)
     ```
     CONSTRAINT nome_constraint CHECK (condição)
