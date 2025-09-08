@@ -1,0 +1,91 @@
+ClienteID,Nome,CpfCnpj,Email,DtCadastro,Ativo
+1,André Souza,08622110228,andre.souza@exemplo.com,2024-11-14 20:35:05,1
+2,Gustavo Melo,31587919400,gustavo.melo@exemplo.com,2025-08-31 21:27:05,1
+3,Fábrica de Móveis Martins LTDA,20905596753013,fabrica.de.moveis.martins.ltda@exemplo.com,2025-07-24 16:32:05,1
+4,Indústria Silva do Brasil LTDA,93905442252630,industria.silva.do.brasil.ltda@exemplo.com,2024-12-05 08:13:05,1
+5,Fernanda Dias,06781764896,fernanda.dias@exemplo.com,2025-04-23 05:13:05,1
+6,Bianca Peixoto,35885478880,bianca.peixoto@exemplo.com,2025-05-04 01:18:05,1
+7,Atacadista Farias LTDA,00812051993546,atacadista.farias.ltda@exemplo.com,2025-03-22 17:32:05,1
+8,Sérgio Pereira,08822615304,sergio.pereira@exemplo.com,2024-11-12 07:07:05,1
+9,Ferreira Engenharia e Serviços LTDA,15606927520134,ferreira.engenharia.e.servicos.ltda@exemplo.com,2024-12-11 17:35:05,1
+10,Santos & Barbosa Tecnologia LTDA,38234560551547,santos.barbosa.tecnologia.ltda@exemplo.com,2025-06-21 12:23:05,1
+11,Fábrica de Móveis Moraes LTDA,69786130112907,fabrica.de.moveis.moraes.ltda@exemplo.com,2025-03-18 03:25:05,1
+12,Carla Castro,68431538778,carla.castro@exemplo.com,2025-06-13 07:31:05,1
+13,André Costa,14066194015,andre.costa@exemplo.com,2025-06-05 08:50:05,1
+14,Felipe Souza,53623530641,felipe.souza@exemplo.com,2025-05-01 02:05:05,1
+15,Fábrica de Móveis Azevedo LTDA,45529746263723,fabrica.de.moveis.azevedo.ltda@exemplo.com,2025-01-22 23:13:05,1
+16,Ferreira & Santos Tecnologia LTDA,71314579262509,ferreira.santos.tecnologia.ltda@exemplo.com,2025-07-25 23:57:05,1
+17,Barbosa Alimentos LTDA,10277240440365,barbosa.alimentos.ltda@exemplo.com,2025-02-02 16:11:05,1
+18,Wagner Farias,63940695732,wagner.farias@exemplo.com,2024-12-26 14:25:05,1
+19,Nathalia Dias,98310405070,nathalia.dias@exemplo.com,2025-02-05 16:40:05,1
+20,Atacadista Santos LTDA,70309272025253,atacadista.santos.ltda@exemplo.com,2024-12-01 06:56:05,1
+21,Grupo Salvador Santos S.A.,76853467645162,grupo.salvador.santos.sa@exemplo.com,2025-08-03 23:57:05,1
+22,Comercial Teixeira & Filhos LTDA,05614454408489,comercial.teixeira.filhos.ltda@exemplo.com,2025-01-30 09:30:05,1
+23,Moraes Alimentos LTDA,88925311388544,moraes.alimentos.ltda@exemplo.com,2025-04-06 08:57:05,1
+24,Juliana Moraes,10877604818,juliana.moraes@exemplo.com,2025-04-28 13:51:05,1
+25,Isabela Almeida,15143197935,isabela.almeida@exemplo.com,2025-02-28 14:04:05,1
+26,Moraes & Correia Tecnologia LTDA,62005732078309,moraes.correia.tecnologia.ltda@exemplo.com,2025-05-12 07:07:05,1
+27,Ana Oliveira,53602080431,ana.oliveira@exemplo.com,2025-04-09 08:24:05,1
+28,Bianca Pereira,87619531281,bianca.pereira@exemplo.com,2025-01-07 16:59:05,1
+29,Murilo Cavalcanti,27257932172,murilo.cavalcanti@exemplo.com,2025-06-14 05:18:05,1
+30,Renata Rocha,02834004950,renata.rocha@exemplo.com,2025-01-12 00:26:05,1
+31,Comercial Ribeiro & Filhos LTDA,19709244502654,comercial.ribeiro.filhos.ltda@exemplo.com,2025-03-23 10:29:05,1
+32,Thiago Costa,93121462717,thiago.costa@exemplo.com,2024-11-14 11:41:05,1
+33,Thiago Correia,69555132749,thiago.correia@exemplo.com,2025-04-19 19:43:05,1
+34,Nathalia Gomes,45141272622,nathalia.gomes@exemplo.com,2025-03-28 08:00:05,1
+35,Atacadista Dias LTDA,36190447789666,atacadista.dias.ltda@exemplo.com,2025-03-02 17:22:05,1
+36,Indústria Santos do Brasil LTDA,21786937149477,industria.santos.do.brasil.ltda@exemplo.com,2025-04-01 05:55:05,1
+37,Érica Nogueira,35670397125,erica.nogueira@exemplo.com,2025-01-03 04:03:05,1
+38,Fábrica de Móveis Oliveira LTDA,32313462101746,fabrica.de.moveis.oliveira.ltda@exemplo.com,2025-06-17 06:46:05,1
+39,Tatiane Lima,76784780550,tatiane.lima@exemplo.com,2025-08-05 17:43:05,1
+40,Paula Azevedo,96658254489,paula.azevedo@exemplo.com,2025-02-19 12:09:05,1
+41,Heitor Correia,83902534996,heitor.correia@exemplo.com,2025-01-23 20:54:05,1
+42,Ribeiro & Castro Tecnologia LTDA,86125278561119,ribeiro.castro.tecnologia.ltda@exemplo.com,2025-08-03 12:03:05,1
+43,Mariana Ribeiro,96728074946,mariana.ribeiro@exemplo.com,2025-02-26 03:46:05,1
+44,Bruno Barbosa,12051629462,bruno.barbosa@exemplo.com,2025-04-11 08:18:05,1
+45,Rocha & Azevedo Tecnologia LTDA,83237997819160,rocha.azevedo.tecnologia.ltda@exemplo.com,2025-03-02 09:06:05,1
+46,Fábrica de Móveis Silva LTDA,77067262882930,fabrica.de.moveis.silva.ltda@exemplo.com,2025-06-28 06:09:05,1
+47,Rafael Martins,07487077337,rafael.martins@exemplo.com,2025-01-12 10:39:05,1
+48,Thiago Carvalho,31644758109,thiago.carvalho@exemplo.com,2025-04-15 21:20:05,1
+49,Fábrica de Móveis Almeida LTDA,75149981484780,fabrica.de.moveis.almeida.ltda@exemplo.com,2024-11-20 03:54:05,1
+50,Yasmin Costa,38339485023,yasmin.costa@exemplo.com,2025-06-10 07:19:05,1
+51,Indústria Silva do Brasil LTDA,62449647921396,industria.silva.do.brasil.ltda@exemplo.com,2025-04-21 23:06:05,1
+52,João Moraes,59472663988,joao.moraes@exemplo.com,2024-12-11 06:29:05,1
+53,Bianca Moraes,70781899707,bianca.moraes@exemplo.com,2025-01-23 22:31:05,1
+54,Patrícia Cavalcanti,94929874657,patricia.cavalcanti@exemplo.com,2024-12-12 09:24:05,1
+55,Gustavo Castro,66440391422,gustavo.castro@exemplo.com,2025-07-21 04:42:05,1
+56,Comercial Melo & Filhos LTDA,55196064857493,comercial.melo.filhos.ltda@exemplo.com,2025-04-10 23:44:05,1
+57,Heitor Peixoto,82413321552,heitor.peixoto@exemplo.com,2025-01-09 00:18:05,1
+58,Alice Gomes,64191767724,alice.gomes@exemplo.com,2024-12-14 18:43:05,1
+59,Alice Oliveira,26096464271,alice.oliveira@exemplo.com,2025-06-10 02:20:05,1
+60,Carvalho Alimentos LTDA,22256646722315,carvalho.alimentos.ltda@exemplo.com,2025-03-31 03:11:05,1
+61,Distribuidora Castro Teixeira LTDA,47843028770174,distribuidora.castro.teixeira.ltda@exemplo.com,2025-04-04 03:18:05,1
+62,Isabela Farias,24396520378,isabela.farias@exemplo.com,2025-02-28 10:17:05,1
+63,Fábrica de Móveis Cavalcanti LTDA,21965531517937,fabrica.de.moveis.cavalcanti.ltda@exemplo.com,2025-06-01 02:49:05,1
+64,Camila Dias,46617687690,camila.dias@exemplo.com,2024-12-15 13:26:05,1
+65,Beatriz Almeida,80253862700,beatriz.almeida@exemplo.com,2024-12-30 12:02:05,1
+66,Karina Pereira,59716809166,karina.pereira@exemplo.com,2025-06-20 21:03:05,1
+67,Gabriela Nogueira,51463102919,gabriela.nogueira@exemplo.com,2024-12-04 15:50:05,1
+68,Bruno Moreira,94786427042,bruno.moreira@exemplo.com,2025-08-07 19:25:05,1
+69,Distribuidora Martins Carvalho LTDA,33427544305319,distribuidora.martins.carvalho.ltda@exemplo.com,2025-04-07 05:57:05,1
+70,Felipe Dias,93026610652,felipe.dias@exemplo.com,2025-08-07 12:26:05,1
+71,Érica Pereira,17793205409,erica.pereira@exemplo.com,2025-02-28 09:06:05,1
+72,Vitória Souza,75112509499,vitoria.souza@exemplo.com,2025-03-21 03:09:05,1
+73,Mercado Joinville Central LTDA,23572135458547,mercado.joinville.central.ltda@exemplo.com,2025-08-06 08:03:05,1
+74,Eduardo Almeida,20725609409,eduardo.almeida@exemplo.com,2024-11-25 14:08:05,1
+75,Nathalia Ferreira,71126537898,nathalia.ferreira@exemplo.com,2025-06-26 15:56:05,1
+76,Luiza Lopes,02918828655,luiza.lopes@exemplo.com,2024-12-17 10:21:05,1
+77,Rodrigues & Peixoto Tecnologia LTDA,33270707610502,rodrigues.peixoto.tecnologia.ltda@exemplo.com,2025-09-03 08:50:05,1
+78,Marcelo Nogueira,80094630519,marcelo.nogueira@exemplo.com,2024-12-17 14:29:05,1
+79,Isabela Melo,80401572286,isabela.melo@exemplo.com,2025-01-03 12:47:05,1
+80,Bruno Costa,80308177628,bruno.costa@exemplo.com,2025-07-07 07:41:05,1
+81,Paula Carvalho,27570088875,paula.carvalho@exemplo.com,2025-08-18 08:52:05,1
+82,Fábrica de Móveis Lopes LTDA,32309999465912,fabrica.de.moveis.lopes.ltda@exemplo.com,2025-08-07 05:53:05,1
+83,Almeida & Azevedo Tecnologia LTDA,71551342308541,almeida.azevedo.tecnologia.ltda@exemplo.com,2025-08-09 13:31:05,1
+84,Carla Lopes,68491379509,carla.lopes@exemplo.com,2025-08-23 23:29:05,1
+85,Mercado Brasília Central LTDA,08695488124565,mercado.brasilia.central.ltda@exemplo.com,2025-04-11 14:49:05,1
+86,Rafael Pereira,87692199704,rafael.pereira@exemplo.com,2025-04-02 05:20:05,1
+87,Fábrica de Móveis Costa LTDA,98587476208185,fabrica.de.moveis.costa.ltda@exemplo.com,2025-08-23 01:58:05,1
+88,Larissa Rocha,03953502482,larissa.rocha@exemplo.com,2025-02-03 16:50:05,1
+89,Luiza Costa,16618982452,luiza.costa@exemplo.com,2025-07-30 03:31:05,1
+90,Marcelo Dias,84645725807,marcelo.dias@exemplo.com,2025-08-20 00:26:05,1

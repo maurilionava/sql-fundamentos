@@ -1,0 +1,71 @@
+ProdutoID,Nome,Categoria,PrecoUnitario,Ativo
+1,Notebook 372,Eletrônicos,1213.59,1
+2,Estante Modular 929,Escritório,3214.1,1
+3,Webcam 1080p 937,Eletrônicos,3364.88,1
+4,HD Externo 2TB 403,Periféricos,1525.2,1
+5,Grampeador 788,Papelaria,70.59,1
+6,SSD 1TB 100,Telefonia,1776.28,1
+7,Caderno Universitário 768,Papelaria,2796.09,1
+8,Grampeador 982,Papelaria,2497.42,1
+9,Fone Bluetooth 887,Periféricos,178.52,1
+10,Mouse Óptico 442,Informática,2487.09,1
+11,Lâmpada H7 850,Automotivo,2525.51,1
+12,SSD 1TB 252,Informática,3492.23,1
+13,HD Externo 2TB 166,Eletrônicos,168.0,1
+14,Óleo Sintético 1L 927,Automotivo,168.17,1
+15,Mesa Office 288,Escritório,3288.8,1
+16,Cadeira Ergonômica 160,Móveis,1688.75,1
+17,SSD 1TB 396,Informática,3446.83,1
+18,Óleo Sintético 1L 119,Automotivo,1607.11,1
+19,Teclado Mecânico 318,Informática,2424.54,1
+20,Fone Bluetooth 770,Eletrônicos,1628.82,1
+21,Mesa Office 775,Móveis,1153.87,1
+22,Estante Modular 828,Móveis,1255.52,1
+23,Tapete Automotivo 507,Automotivo,292.12,1
+24,Bateria 60Ah 520,Automotivo,678.91,1
+25,Marcador Texto 697,Papelaria,750.88,1
+26,Mesa Office 252,Escritório,1190.35,1
+27,Caneta Esferográfica 685,Papelaria,2731.14,1
+28,Notebook 174,Periféricos,2271.7,1
+29,Notebook 930,Telefonia,3193.07,1
+30,Gaveteiro 979,Móveis,2603.78,1
+31,Headset Gamer 796,Informática,2623.06,1
+32,Cadeira Ergonômica 254,Escritório,2006.66,1
+33,Mesa Office 805,Móveis,873.4,1
+34,Gaveteiro 329,Escritório,3295.91,0
+35,Mouse Óptico 812,Informática,1543.43,0
+36,Roteador Wi-Fi 6 820,Periféricos,581.59,1
+37,Óleo Sintético 1L 296,Automotivo,1294.53,1
+38,Roteador Wi-Fi 6 934,Informática,3377.47,1
+39,Notebook 351,Telefonia,1562.27,0
+40,Grampeador 494,Papelaria,828.95,1
+41,Mouse Óptico 913,Eletrônicos,3178.63,1
+42,"Monitor 24"" 640",Eletrônicos,1625.1,1
+43,Mesa Office 206,Móveis,1298.62,1
+44,Cadeira Ergonômica 661,Móveis,962.36,1
+45,Webcam 1080p 122,Telefonia,3443.91,1
+46,Fone Bluetooth 680,Eletrônicos,2717.11,1
+47,Webcam 1080p 415,Periféricos,2399.0,1
+48,Caneta Esferográfica 424,Papelaria,1998.77,0
+49,Headset Gamer 987,Telefonia,951.58,1
+50,SSD 1TB 992,Informática,1752.28,1
+51,Suporte Monitor 562,Móveis,471.29,1
+52,Tapete Automotivo 436,Automotivo,1028.14,1
+53,Mesa Office 897,Móveis,1046.36,1
+54,Notebook 882,Eletrônicos,1708.97,1
+55,Suporte Monitor 511,Escritório,3469.87,1
+56,HD Externo 2TB 286,Periféricos,1608.61,1
+57,Caderno Universitário 258,Papelaria,1239.82,1
+58,Headset Gamer 656,Telefonia,489.6,1
+59,Mesa Office 531,Móveis,2383.8,1
+60,Headset Gamer 427,Eletrônicos,2427.89,0
+61,SSD 1TB 810,Telefonia,593.9,1
+62,Teclado Mecânico 909,Informática,2947.03,1
+63,Teclado Mecânico 421,Telefonia,373.02,1
+64,Bateria 60Ah 759,Automotivo,1227.12,1
+65,Webcam 1080p 757,Eletrônicos,3446.59,1
+66,Teclado Mecânico 476,Informática,781.76,1
+67,Cadeira Ergonômica 642,Escritório,1925.87,1
+68,Suporte Monitor 939,Móveis,1087.7,1
+69,Estante Modular 940,Escritório,2585.04,1
+70,SSD 1TB 516,Eletrônicos,2703.01,0
